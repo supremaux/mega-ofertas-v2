@@ -1,0 +1,24 @@
+/* Product.module.css */
+
+/* Classe base para o elemento antes da transição */
+.fade-in-up-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-in-up-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 700ms ease-in-out, transform 700ms ease-in-out;
+}
+
+.fade-in-up-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-up-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}

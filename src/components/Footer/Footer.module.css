@@ -1,0 +1,51 @@
+.barraShopee {
+  background-color: #ec4c2c;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #ffd700 !important;
+}
+
+.bottomBar {
+  background-color: var(--VermelhoIntenso);
+  height: 10vh;
+  color: var(--Branco);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: middle;
+}
+
+@media screen and (max-width: 480px) {
+  .barraShopee {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    padding-block: 15px;
+  }
+
+  .navFooter h1 {
+    font-size: 24px;
+  }
+}

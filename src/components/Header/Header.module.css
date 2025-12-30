@@ -1,0 +1,104 @@
+.barraSuperior {
+  background-color: var(--AmareloOuro);
+  padding: 10px 0;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  padding-block: 15px;
+}
+
+.inputBusca {
+  width: 85%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  background-color: var(--CinzaClaro);
+  color: var(--PretoSuave);
+}
+
+.botaoBusca {
+  width: 15%;
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  background-color: var(--CinzaEscuro);
+  color: var(--Branco);
+  cursor: pointer;
+}
+
+.favoritos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  font-size: 45px;
+  color: var(--CinzaEscuro);
+}
+
+.botaoFavoritos {
+  color: var(--CinzaEscuro);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.barraMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: var(--VermelhoIntenso);
+  color: var(--Branco);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.barraMenu a {
+  color: var(--Branco);
+  background-color: var(--VermelhoIntenso);
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.barraMenu a:hover {
+  color: var(--VermelhoIntenso);
+  background-color: var(--Branco);
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.barraMenu a:active {
+  color: var(--VermelhoIntenso);
+  background-color: var(--Branco);
+  border-radius: 5px;
+}
+
+/* Break Points */
+
+/* Desktop */
+@media screen and (max-width: 768px) {
+  .menuDesktop {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media screen and (min-width: 769px) {
+  .menuMobile {
+    display: none;
+  }
+}

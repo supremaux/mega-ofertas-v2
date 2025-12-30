@@ -1,0 +1,35 @@
+.barraMobile {
+  width: 100%;
+  background-color: var(--VermelhoIntenso);
+}
+
+.fisearchicon {
+  color: var(--Branco);
+  font-size: 25px;
+}
+
+.fimenuicon {
+  color: var(--Branco);
+  font-size: 25px;
+}
+
+.inputBusca {
+  /* Estilos do campo de busca */
+  /* ... */
+  border-radius: 5px;
+  width: 100%;
+  animation: slideIn 0.3s ease-in-out;
+  z-index: 96;
+  position: relative;
+  float: right;
+  clear: both;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

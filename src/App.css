@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fontePadrao);
+}
+
+:root {
+  /* Cores Principais (já na logo)  */
+
+  --VermelhoIntenso: #d32f2f; /* cor predominante, chama atenção  */
+  --AmareloOuro: #fbc02d; /*reforça o clima de promoção*/
+  --LaranjaVibrante: #f57c00; /*transições e detalhes*/
+  --CinzaEscuro: #424242; /*texto de apoio, equilíbrio*/
+  --Branco: #ffffff; /*contraste e limpeza visual*/
+
+  /* Cores de Apoio (para o site) */
+
+  --VermelhoClaroSuave: #ffcdd2; /*fundos suaves e hover*/
+  --AmareloClaro: #fff9c4; /*destaques secundários*/
+  --CinzaClaro: #eeeeee; /*fundos neutros para não poluir*/
+  --PretoSuave: #212121; /*texto de alta legibilidade*/
+
+  /* Fontes */
+
+  --fontePadrao {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-variant-caps: all-small-caps;
+    font-variant-numeric: lining-nums proportional-nums;
+  }
+}
